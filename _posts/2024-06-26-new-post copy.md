@@ -1,0 +1,69 @@
+---
+title: FAILURE- Build failed with an exception. Incompatible because this component declares a component for use during compile-time, compatible with Java 17 and the consumer needed a component for use during runtime, compatible with Java 10
+date: 2024-03-29 18:15:00 +0900
+categories: [SPRING, JAVA, MAC, GRADLE]
+tags: [gradle, spring, java, mac]  # TAG names should always be lowercase
+authors: [gonnichiwa]
+---
+
+## # 개수로 글자 크기 변경
+
+## ```로 문장 나누기
+
+```
+안녕하세요.
+```
+
+## 사진 넣기
+
+![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbaDpyM%2FbtsIcQ8gnXH%2FOPVV3HcRErMGMHmsJJFUq1%2Fimg.png)
+
+
+
+# "-" 
+
+- 안녕하세요
+
+
+
+# github 블로그 개설
+
+1. https://github.com/cotes2020/chirpy-starter 클릭 - installer에서 use this       temple 클릭
+
+2. 프로필명.github.io 입력 후 create
+3. 만든 github.io 들어가서 Action 클릭 - 체크 표시 두개 확인
+-만약 실패했다면 만든 github.io repository를 setting - Delete this repository 로
+가서 지운뒤 다시 cotes2020에서 가져온다(fork)
+
+4. 잘 됬다면 만든 Hki00.github.io를 인터넷에 쳐서 블로그가 나오면 개설 성공
+다만 이 화면에서 바로 글을 쓸 순 없다.
+
+```
+=== 자기 컨텐츠 올리기 위한 작업들 ===
+클론 받아 개발환경 구성하고, 컨텐츠파일 만들어서, commit, push 한 뒤, 배포
+
+```
+
+# 클론 받는법
+
+1. github 사이트에서 만든 github블로그에서 코드 복사함
+2. window cmd에서 c:\dev> git clone 복사한 코드 - 해당 경로에 클론 파일 생성
+
+# 루비 다운 받기
+1. https://github.com/gonnichiwa/gonnichiwa.github.io - donwload ruby
+2. 다운 도중 install for all users 선택 후 next
+3. 1 입력 후 엔터
+
+4. 다시 cmd로 돌아와 Ruby33-x64/bin 경로 설정
+5. gem --help 입력 - gem 설치
+6. 환경변수 추가 C 드라이브 > 속성 > 고급 시스템 설정 > 환경 변수 > 시스템 변수 편집 > c:\Ruby33 -x64\bin 추가
+7. gem --help 후 cmd 껏다 키기
+
+# jekyll bundler 설치
+1. https://jekyllrb.com/docs/installation/windows/
+2. jekyll bundler 설치 > cmd > gem install jekyll bundler 입력
+3. gem install jekyll bundler 입력 - jekyll 버전 확인
+
+
+
+[def]: 사이트주소
